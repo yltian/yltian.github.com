@@ -1,0 +1,16 @@
+markdown: rdiscount
+permalink: /:title/
+url: http://yltian.github.io
+name: yltian的技术博客
+author: yltian
+qq: 54483391
+email: yltian
+duoshuo: yltian
+beian: 
+cnzz: 
+weibo: 亚林106
+github: yltian
+pygments: true
+safe: true
+paginate: 30
+about: "关于信息"
