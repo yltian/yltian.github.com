@@ -1,4 +1,4 @@
----
+ï»¿---
 layout: post
 title: "Unity Shaders and Effects Cookbook: Chapter 1"
 categories:
@@ -10,7 +10,7 @@ tags:
 ---
 ## Diffuse Shading
 
-ÕâÕÂÖ÷Òª½²£º
+è¿™ç« ä¸»è¦è®²ï¼š
 - Creating a basic *Surface Shader*
 - Adding properties to a Surface Shader
 - Using properties in a Surface Shader
@@ -19,8 +19,8 @@ tags:
 - Create a ramp texture to control diffuse shading
 - Creating a faked BRDF using a 2D ramp texture
 
-ºÃµÄShader´ó¶à¿ªÊ¼ÓÚ»ù´¡µÄdiffuse component»òÕßlighting model,ÔÚÔçÆÚµÄcomputer graphics,diffuse shadingÊÇÍ¨¹ı¹Ì¶¨¹âÕÕÄ£ĞÍÊµÏÖµÄ*fixed function lighting model* ËüÖ»Ìá¹©¸øÍ¼ĞÎ³ÌĞòµ¥Ò»µÄ¹âÕÕÄ£ĞÍ£¬Í¨¹ıÒ»×é²ÎÊıparametersºÍÌùÍ¼textures½øĞĞÎ¢µ÷¡£ÔÚµ±Ç°µÄ¹¤ÒµÓ¦ÓÃÖĞ£¬ÎÒÃÇ¿ÉÒÔÊ¹ÓÃCg¿ØÖÆ¸ü¶à£¬»òÕßÔÚUnityÖĞÊ¹ÓÃSurface Shaders.
+å¥½çš„Shaderå¤§å¤šå¼€å§‹äºåŸºç¡€çš„diffuse componentæˆ–è€…lighting model,åœ¨æ—©æœŸçš„computer graphics,diffuse shadingæ˜¯é€šè¿‡å›ºå®šå…‰ç…§æ¨¡å‹å®ç°çš„*fixed function lighting model* å®ƒåªæä¾›ç»™å›¾å½¢ç¨‹åºå•ä¸€çš„å…‰ç…§æ¨¡å‹ï¼Œé€šè¿‡ä¸€ç»„å‚æ•°parameterså’Œè´´å›¾texturesè¿›è¡Œå¾®è°ƒã€‚åœ¨å½“å‰çš„å·¥ä¸šåº”ç”¨ä¸­ï¼Œæˆ‘ä»¬å¯ä»¥ä½¿ç”¨Cgæ§åˆ¶æ›´å¤šï¼Œæˆ–è€…åœ¨Unityä¸­ä½¿ç”¨Surface Shaders.
 
-The diffuse component of a Shader basically describes the way *light reflects off a surface in all directions*. Õâ¿ÉÄÜ¸úÈçºÎÃèÊö¾µÃæ·´Éä(reflective mirror)ºÜÏñ¡£µ«ËüÃÇ²¢²»ÏàÍ¬¡£diffuse lighting takes all the light from light source, such as the sun, and reflects its light back to the viewer's eye.
+The diffuse component of a Shader basically describes the way *light reflects off a surface in all directions*. è¿™å¯èƒ½è·Ÿå¦‚ä½•æè¿°é•œé¢åå°„(reflective mirror)å¾ˆåƒã€‚ä½†å®ƒä»¬å¹¶ä¸ç›¸åŒã€‚diffuse lighting takes all the light from light source, such as the sun, and reflects its light back to the viewer's eye.
 
 
